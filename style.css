@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+
+:root {
+	--dark: #374151;
+	--darker: #1F2937;
+	--darkest: #111827;
+	--grey: #6B7280;
+	--pink: #e2187d;
+	--purple: #491ab8;
+	--light: #EEE;
+}
+
+
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  background-color: #a2b6a0;
+  background-image: linear-gradient(to right, #8b8f8a, #1d98cc );
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.app {
+  width: 60%;
+}
+
+@media (max-width:768px) {
+  .app {
+    width: 90%;
+  }
+}
+
+.app h1 {
+  color: rgb(68, 68, 68);
+  /* background-image: linear-gradient(to right, #00ff00, #ff0000 );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
+  font-size: 50px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: .5rem .5rem .5rem .5rem;
+  /* background-color: rgb(0,255,255); */
+  font-family:  sans-serif;
+  font-weight: 400;
+}
+
+.app h1 span{
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(to right, #000000,#1b85ff, #000000,#1b85ff, #000000 );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  /* background-image: linear-gradient(to right, #ffffff,#1b85ff, #ffffff,#1b85ff, #ffffff );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
+  font-weight: 600;
+  font-family: "Rajdhani";
+  
+}
+
+.app h1 spant{
+   color: #000000;
+   /* background-image: linear-gradient(to right, #000000,#ae8e8e, #000000,#ae8e8e, #000000 );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
+}
+
+.app form {
+  display: flex;
+  width: 100%;
+  /* background-color: rgb(207, 109, 109); */
+}
+
+#add{
+    color:#000000;
+}
+
+.app form input {
+  border: 0.2rem solid black;
+  border-radius: 0.5rem;
+  background-color: pink;
+  background-image: linear-gradient(to right, #04a6ec, #5bb345 ); 
+  font-size: 18px;
+  color: white;
+  padding: 10px;
+  width: 90%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.app form button {
+  border: none;
+  color: white;
+  background-color: #bc50ae;
+  background-image: linear-gradient(to right, #bcd5c3 , #e0427f);
+  font-size: 25px;
+  font-weight: 600;
+  height: 46px;
+  width: 8%;
+  margin-top: 3rem;
+  border: 0.2rem solid black;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  
+}
+
+.app ul {
+  list-style: none;
+  color: #e0e0e0;
+  padding: 0;
+}
+
+.app ul li {
+  padding: 10px;
+  background-color: black;
+  border-bottom: 1px solid #3a4674;
+  border-radius: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.check {
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(55, 197, 222);
+  -webkit-appearance: none;
+}
+
+.check:checked {
+  background-color: #04b9fb;
+}
+
+.task {
+  font-size: 18px;
+  padding: 0 10px;
+  width: fit-content;
+  background: transparent;
+  border: none;
+  color: #fff;
+  /* background-image: linear-gradient(to right, #b8f0aa, #005fed );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
+}
+
+.task:focus {
+  outline: none;
+}
+
+.app ul li i {
+  float: right;
+  cursor: pointer;
+}
+
+.app ul li i:hover {
+  color: rgb(255, 82, 82);
+}
+
+.completed {
+  color: rgba(192, 192, 192, 0.5);
+  text-decoration: line-through;
+}
