@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 3.1rem;
   background-color: #a2b6a0;
   background-image: linear-gradient(to right, #8b8f8a, #1d98cc );
   height: 100vh;
@@ -41,8 +41,8 @@
   /* background-image: linear-gradient(to right, #00ff00, #ff0000 );
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent; */
-  font-size: 50px;
-  padding: 10px 0;
+  font-size: 3.1rem;
+  padding: 0.6rem 0;
   text-align: center;
   border-radius: .5rem .5rem .5rem .5rem;
   /* background-color: rgb(0,255,255); */
@@ -85,9 +85,9 @@
   border-radius: 0.5rem;
   background-color: pink;
   background-image: linear-gradient(to right, #04a6ec, #5bb345 ); 
-  font-size: 18px;
+  font-size: 1.1rem;
   color: white;
-  padding: 10px;
+  padding: 1.1rem;
   width: 90%;
   margin-top: 3rem;
   margin-bottom: 2rem;
@@ -98,10 +98,10 @@
   color: white;
   background-color: #bc50ae;
   background-image: linear-gradient(to right, #bcd5c3 , #e0427f);
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: 600;
-  height: 46px;
-  width: 8%;
+  height: 3.8rem;
+  width: 10%;
   margin-top: 3rem;
   border: 0.2rem solid black;
   border-radius: 0.5rem;
@@ -116,7 +116,7 @@
 }
 
 .app ul li {
-  padding: 10px;
+  padding: 0.6rem;
   background-color: black;
   border-bottom: 1px solid #3a4674;
   border-radius: 0.6rem;
@@ -138,8 +138,8 @@
 }
 
 .task {
-  font-size: 18px;
-  padding: 0 10px;
+  font-size: 1.1rem;
+  padding: 0 0.6rem;
   width: fit-content;
   background: transparent;
   border: none;
@@ -165,4 +165,16 @@
 .completed {
   color: rgba(192, 192, 192, 0.5);
   text-decoration: line-through;
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 85%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 75%;
+    }
 }
