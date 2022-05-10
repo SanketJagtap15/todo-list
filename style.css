@@ -89,6 +89,7 @@
   color: white;
   padding: 1.1rem;
   width: 90%;
+  height: 0.56rem;
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
@@ -100,7 +101,7 @@
   background-image: linear-gradient(to right, #bcd5c3 , #e0427f);
   font-size: 1.5rem;
   font-weight: 600;
-  height: 3.8rem;
+  height: 3rem;
   width: 10%;
   margin-top: 3rem;
   border: 0.2rem solid black;
